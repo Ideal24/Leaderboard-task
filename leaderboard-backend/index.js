@@ -9,7 +9,10 @@ app.use(express.json());
 app.use(cors());
 
 mongoose
- mongoose.connect(process.env.MONGO_URI)
+  .connect(
+    "mongodb+srv://adarsha0024:bFP7SLu4H2oHFQAm@cluster0.udpa5pj.mongodb.net/", // <-- Replace with your real connection string!
+    
+  )
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err));
 
