@@ -8,7 +8,7 @@ app.use(cors());
 
 mongoose
   .connect(
-    "mongodb+srv://adarsha0024:bFP7SLu4H2oHFQAm@cluster0.udpa5pj.mongodb.net/", // <-- Replace with your real connection string!
+    "de link", // <-- Replace with your real connection string!
     
   )
   .then(() => console.log("MongoDB connected"))
