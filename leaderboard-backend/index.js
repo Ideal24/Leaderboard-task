@@ -31,7 +31,7 @@ const History = mongoose.model("History", historySchema);
 // Seed users
 app.post("/api/seed", async (req, res) => {
   const defaultUsers = [
-    "Rahul",
+    "Adarsh",
     "Kamal",
     "Sanak",
     "Amit",
